@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-slate-100 text-slate-900;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-slate-300 rounded-full;
+}
+
+/* Print-friendly dashboard: hide nav, expand content */
+@media print {
+  aside,
+  header,
+  button,
+  nav {
+    display: none !important;
+  }
+
+  body {
+    @apply bg-white;
+  }
+
+  main {
+    max-width: none !important;
+    padding: 0 !important;
+  }
+
+  [data-dashboard-print] {
+    break-inside: avoid;
+  }
+}
+

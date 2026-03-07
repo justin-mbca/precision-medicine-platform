@@ -1,0 +1,3 @@
+{
+  "/api/genomic/analyze-variant": "pages/api/genomic/analyze-variant.js"
+}

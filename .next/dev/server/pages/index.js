@@ -1,0 +1,11 @@
+var R=require("../chunks/ssr/[turbopack]_runtime.js")("server/pages/index.js")
+R.c("server/chunks/ssr/[root-of-the-server]__72262f61._.js")
+R.c("server/chunks/ssr/8d57d_next_08b49851._.js")
+R.c("server/chunks/ssr/8d57d_lodash_bf1bbc0c._.js")
+R.c("server/chunks/ssr/8d57d_recharts_es6_5e5968ad._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__cb0bdb13._.js")
+R.c("server/chunks/ssr/8d57d_981c8a1e._.js")
+R.c("server/chunks/ssr/[externals]__e6a4d965._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__90682510._.js")
+R.m("[project]/health_ai/node_modules/next/dist/esm/build/templates/pages.js { INNER_PAGE => \"[project]/health_ai/pages/index.tsx [ssr] (ecmascript)\", INNER_DOCUMENT => \"[project]/health_ai/node_modules/next/document.js [ssr] (ecmascript)\", INNER_APP => \"[project]/health_ai/pages/_app.tsx [ssr] (ecmascript)\" } [ssr] (ecmascript)")
+module.exports=R.m("[project]/health_ai/node_modules/next/dist/esm/build/templates/pages.js { INNER_PAGE => \"[project]/health_ai/pages/index.tsx [ssr] (ecmascript)\", INNER_DOCUMENT => \"[project]/health_ai/node_modules/next/document.js [ssr] (ecmascript)\", INNER_APP => \"[project]/health_ai/pages/_app.tsx [ssr] (ecmascript)\" } [ssr] (ecmascript)").exports

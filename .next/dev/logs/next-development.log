@@ -1,0 +1,7 @@
+[00:00:00.448] Server  LOG     ✓ Ready in 287ms
+[00:00:05.578] Server  WARN    API resolved without sending a response for /api/patients, this may result in stalled requests.
+[00:00:06.001] Server  WARN    API resolved without sending a response for /api/patients, this may result in stalled requests.
+[00:00:30.340] Server  WARN    API resolved without sending a response for /api/patients, this may result in stalled requests.
+[00:00:30.762] Server  WARN    API resolved without sending a response for /api/patients, this may result in stalled requests.
+[00:03:26.485] Server  WARN    API resolved without sending a response for /api/patients, this may result in stalled requests.
+[00:03:26.905] Server  WARN    API resolved without sending a response for /api/patients, this may result in stalled requests.

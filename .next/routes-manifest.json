@@ -1,0 +1,146 @@
+{
+  "version": 3,
+  "pages404": true,
+  "appType": "pages",
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "internal": true,
+      "priority": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    }
+  ],
+  "headers": [],
+  "rewrites": {
+    "beforeFiles": [],
+    "afterFiles": [],
+    "fallback": []
+  },
+  "dynamicRoutes": [
+    {
+      "page": "/api/auth/[...nextauth]",
+      "regex": "^/api/auth/(.+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPnextauth": "nxtPnextauth"
+      },
+      "namedRegex": "^/api/auth/(?<nxtPnextauth>.+?)(?:/)?$"
+    },
+    {
+      "page": "/api/patient-records/[id]",
+      "regex": "^/api/patient\\-records/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/api/patient\\-records/(?<nxtPid>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/api/patients/[id]/recompute-risk",
+      "regex": "^/api/patients/([^/]+?)/recompute\\-risk(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/api/patients/(?<nxtPid>[^/]+?)/recompute\\-risk(?:/)?$"
+    }
+  ],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/api/assistant/chat-stream",
+      "regex": "^/api/assistant/chat\\-stream(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/assistant/chat\\-stream(?:/)?$"
+    },
+    {
+      "page": "/api/assistant/feedback",
+      "regex": "^/api/assistant/feedback(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/assistant/feedback(?:/)?$"
+    },
+    {
+      "page": "/api/genomic/analyze-variant",
+      "regex": "^/api/genomic/analyze\\-variant(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/genomic/analyze\\-variant(?:/)?$"
+    },
+    {
+      "page": "/api/genomic/analyze-variant-stream",
+      "regex": "^/api/genomic/analyze\\-variant\\-stream(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/genomic/analyze\\-variant\\-stream(?:/)?$"
+    },
+    {
+      "page": "/api/patient-records",
+      "regex": "^/api/patient\\-records(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/patient\\-records(?:/)?$"
+    },
+    {
+      "page": "/api/patients",
+      "regex": "^/api/patients(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/patients(?:/)?$"
+    },
+    {
+      "page": "/assistant",
+      "regex": "^/assistant(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/assistant(?:/)?$"
+    },
+    {
+      "page": "/auth/signin",
+      "regex": "^/auth/signin(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/auth/signin(?:/)?$"
+    },
+    {
+      "page": "/genomic",
+      "regex": "^/genomic(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/genomic(?:/)?$"
+    }
+  ],
+  "dataRoutes": [
+    {
+      "page": "/",
+      "dataRouteRegex": "^/_next/data/_SyPyBUuF5lXYW3FcgZxE/index\\.json$"
+    },
+    {
+      "page": "/assistant",
+      "dataRouteRegex": "^/_next/data/_SyPyBUuF5lXYW3FcgZxE/assistant\\.json$"
+    },
+    {
+      "page": "/auth/signin",
+      "dataRouteRegex": "^/_next/data/_SyPyBUuF5lXYW3FcgZxE/auth/signin\\.json$"
+    },
+    {
+      "page": "/genomic",
+      "dataRouteRegex": "^/_next/data/_SyPyBUuF5lXYW3FcgZxE/genomic\\.json$"
+    }
+  ],
+  "rsc": {
+    "header": "rsc",
+    "varyHeader": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+    "prefetchHeader": "next-router-prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSegmentHeader": "next-router-segment-prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments",
+    "clientParamParsing": false,
+    "dynamicRSCPrerender": false
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  }
+}
