@@ -1,3 +1,0 @@
-module.exports=[8171,(a,b,c)=>{b.exports=a.x("react/jsx-runtime",()=>require("react/jsx-runtime"))},89381,(a,b,c)=>{b.exports=a.x("next-auth-e4523899857f25e7/react",()=>require("next-auth-e4523899857f25e7/react"))},74887,a=>{"use strict";var b=a.i(8171),c=a.i(89381);function d({Component:a,pageProps:{session:d,...e}}){return(0,b.jsx)(c.SessionProvider,{session:d,children:(0,b.jsx)(a,{...e})})}a.s(["default",()=>d])}];
-
-//# sourceMappingURL=%5Broot-of-the-server%5D__136e076b._.js.map

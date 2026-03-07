@@ -1,8 +1,0 @@
-var R=require("../../chunks/ssr/[turbopack]_runtime.js")("server/pages/auth/signin.js")
-R.c("server/chunks/ssr/8d57d_next_dist_8abf0660._.js")
-R.c("server/chunks/ssr/[root-of-the-server]__f9daf9f4._.js")
-R.c("server/chunks/ssr/8d57d_981c8a1e._.js")
-R.c("server/chunks/ssr/[externals]__e6a4d965._.js")
-R.c("server/chunks/ssr/[root-of-the-server]__90682510._.js")
-R.m("[project]/health_ai/node_modules/next/dist/esm/build/templates/pages.js { INNER_PAGE => \"[project]/health_ai/pages/auth/signin.tsx [ssr] (ecmascript)\", INNER_DOCUMENT => \"[project]/health_ai/node_modules/next/document.js [ssr] (ecmascript)\", INNER_APP => \"[project]/health_ai/pages/_app.tsx [ssr] (ecmascript)\" } [ssr] (ecmascript)")
-module.exports=R.m("[project]/health_ai/node_modules/next/dist/esm/build/templates/pages.js { INNER_PAGE => \"[project]/health_ai/pages/auth/signin.tsx [ssr] (ecmascript)\", INNER_DOCUMENT => \"[project]/health_ai/node_modules/next/document.js [ssr] (ecmascript)\", INNER_APP => \"[project]/health_ai/pages/_app.tsx [ssr] (ecmascript)\" } [ssr] (ecmascript)").exports

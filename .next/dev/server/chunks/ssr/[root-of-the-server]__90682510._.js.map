@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 10, "column": 0}, "map": {"version":3,"sources":["file:///Users/justin/health_ai/pages/_app.tsx"],"sourcesContent":["import type { AppProps } from \"next/app\";\nimport { SessionProvider } from \"next-auth/react\";\nimport \"../styles/globals.css\";\n\nexport default function MyApp({\n  Component,\n  pageProps: { session, ...pageProps }\n}: AppProps) {\n  return (\n    <SessionProvider session={session}>\n      <Component {...pageProps} />\n    </SessionProvider>\n  );\n}\n\n"],"names":[],"mappings":";;;;;AACA;;;;AAGe,SAAS,MAAM,EAC5B,SAAS,EACT,WAAW,EAAE,OAAO,EAAE,GAAG,WAAW,EAC3B;IACT,qBACE,qKAAC,sNAAe;QAAC,SAAS;kBACxB,cAAA,qKAAC;YAAW,GAAG,SAAS;;;;;;;;;;;AAG9B"}}]
-}

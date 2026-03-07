@@ -1,0 +1,48 @@
+# Node modules
+node_modules/
+
+# Build output
+.next/
+out/
+dist/
+build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+
+# Env files
+.env
+.env.*
+
+# Misc
+*.local
+coverage/
+
+# VSCode
+.vscode/
+
+# Mac system files
+Icon?
+
+# Lint/format
+.eslintcache
+.prettier*
+
+# TypeScript
+*.tsbuildinfo
+
+# Ignore large files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Ignore by pattern
+*.bak
+*.old
+*.orig
