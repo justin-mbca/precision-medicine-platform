@@ -45,12 +45,12 @@ Given the following variant:
 - Clinical significance: pathogenic
 - Associated conditions: None specified
 
-Provide a concise clinical interpretation (2–4 sentences) covering:
-1. What this variant means biologically
+Provide a clinical interpretation covering:
+1. What this variant means biologically (include mechanistic detail when relevant, e.g., homologous recombination, HRD)
 2. Clinical implications for the patient
-3. Any actionable recommendations (e.g., surveillance, drug adjustments)
+3. Any actionable recommendations (e.g., surveillance, risk-reducing surgery, PARP inhibitors, genetic counseling)
 
-Use plain language suitable for a clinician. Do not include disclaimers about consulting a genetic counselor.`;
+Use plain language suitable for a clinician. Include technical terms where they add clinical value. Do not include disclaimers about consulting a genetic counselor.`;
 
 async function main() {
   console.log("Testing OpenAI API directly...\n");
