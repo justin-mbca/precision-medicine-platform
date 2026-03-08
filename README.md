@@ -24,6 +24,14 @@ npm install
 - `NEXTAUTH_URL=http://localhost:3000`  
 - `NEXTAUTH_SECRET=development-secret-change-me`
 
+**Mock vs LLM mode** (variant analysis and Virtual Colleague):
+
+- `USE_MOCK_AI=true` (default) – uses built-in mock responses; no API key needed
+- `USE_MOCK_AI=false` – calls real LLM APIs; requires an API key:
+  - `OPENAI_API_KEY` – for OpenAI (GPT-4o-mini)
+  - `ANTHROPIC_API_KEY` – for Anthropic (Claude)
+  - `LLM_PROVIDER=openai` or `anthropic` – which provider to use
+
 3. **Run the dev server**
 
 ```bash
