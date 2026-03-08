@@ -70,6 +70,23 @@ Clinically, carriers have elevated lifetime risks for breast, ovarian, and relat
 
 ---
 
+## Consistency Check
+
+| Clinical point | This app | ChatGPT | Consistent? |
+|---------------|-----------|---------|-------------|
+| **Variant type** | Frameshift mutation | Two-base pair deletion causing frameshift | Yes |
+| **Mechanism** | Premature stop codon, truncated protein | Premature truncation, loss of protein function | Yes |
+| **Gene function** | Disrupts DNA repair | Impairs homologous recombination repair | Yes |
+| **Cancer risk** | Breast and ovarian cancers | Breast, ovarian, related cancers | Yes |
+| **Surveillance** | Enhanced surveillance (mammograms, MRI) | Enhanced surveillance (earlier, more frequent screening) | Yes |
+| **Risk reduction** | Risk-reducing surgery discussion | Prophylactic surgery | Yes |
+| **Family** | Genetic counseling for relatives | Not mentioned | Compatible |
+| **Treatment** | Not mentioned | PARP inhibitors if cancer develops | Compatible |
+
+**Summary:** Both outputs agree on the core clinical message. Neither contradicts the other. ChatGPT adds more technical detail (homologous recombination, HRD, PARP inhibitors); the app output is more concise.
+
+---
+
 ## Key Differences
 
 - **This app**: Structured output, integrated with patient data, configurable model via env
